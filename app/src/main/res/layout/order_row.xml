@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="false"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="7dp"
+    android:elevation="8dp"
+    android:background="@color/white"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:id="@+id/tvRoomName_order_admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phong View Phong "
+        android:textColor="@color/black"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvThoiGianNhan_order_admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="13/04/2023 "
+        android:textColor="@color/blue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvRoomName_order_admin" />
+
+    <TextView
+        android:id="@+id/tvThoiGianTra_order_admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-> 14/04/2023"
+        android:textColor="@color/blue"
+        app:layout_constraintBottom_toBottomOf="@+id/tvThoiGianNhan_order_admin"
+        app:layout_constraintStart_toEndOf="@+id/tvThoiGianNhan_order_admin"
+        app:layout_constraintTop_toTopOf="@+id/tvThoiGianNhan_order_admin" />
+
+    <TextView
+        android:id="@+id/tvHotelName_order_admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Khach San Long An"
+        app:layout_constraintStart_toStartOf="@+id/tvRoomName_order_admin"
+        app:layout_constraintTop_toBottomOf="@+id/tvThoiGianNhan_order_admin" />
+
+    <TextView
+        android:id="@+id/tvLocation_order_admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="địa chỉ"
+        app:layout_constraintBottom_toBottomOf="@+id/tvHotelName_order_admin"
+        app:layout_constraintStart_toEndOf="@+id/tvHotelName_order_admin"
+        app:layout_constraintTop_toTopOf="@+id/tvHotelName_order_admin" />
+
+    <TextView
+        android:id="@+id/tvSoLuongPhongVaKhach_order_admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="so luong phong va khach"
+        app:layout_constraintStart_toStartOf="@+id/tvHotelName_order_admin"
+        app:layout_constraintTop_toBottomOf="@+id/tvHotelName_order_admin" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvSoLuongPhongVaKhach_order_admin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvRoomName_order_admin"
+        app:srcCompat="@drawable/ic_hotel" />
+</androidx.constraintlayout.widget.ConstraintLayout>

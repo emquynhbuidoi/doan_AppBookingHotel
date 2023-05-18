@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="50dp"
+    tools:context=".ChangePassActivity">
+
+    <EditText
+        android:id="@+id/edtMkCu"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:hint="Mật khẩu cũ"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtMkMoi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:hint="Mật khẩu mới"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/edtMkCu"
+        app:layout_constraintStart_toStartOf="@+id/edtMkCu"
+        app:layout_constraintTop_toBottomOf="@+id/edtMkCu" />
+
+    <EditText
+        android:id="@+id/edtMkMoi2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:hint="Nhập lại mk mới"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/edtMkMoi"
+        app:layout_constraintStart_toStartOf="@+id/edtMkMoi"
+        app:layout_constraintTop_toBottomOf="@+id/edtMkMoi" />
+
+    <Button
+        android:id="@+id/btnChangePass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Change password"
+        android:background="@drawable/button_style"
+        android:textColor="@color/white"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtMkMoi2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

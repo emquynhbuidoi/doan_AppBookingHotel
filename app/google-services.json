@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1048034750414",
+    "project_id": "appbookinghotel-5dddc",
+    "storage_bucket": "appbookinghotel-5dddc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048034750414:android:d5d0a77291445cab4ec59f",
+        "android_client_info": {
+          "package_name": "com.example.appbookinghotel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048034750414-c7esg9f277909dkukt329m2gef2k2a77.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.appbookinghotel",
+            "certificate_hash": "3f7bec27a49622cb75af89c6e4f49e4d3c76e8b2"
+          }
+        },
+        {
+          "client_id": "1048034750414-f664lf68o3s1n5fcbt9urrcfcgg6me2b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfA2h7CepifnU_CG1IsI4B74D0l1x8U1U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1048034750414-f664lf68o3s1n5fcbt9urrcfcgg6me2b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
